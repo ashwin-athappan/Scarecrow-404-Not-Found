@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap");
+* {
+  margin: 0;
+}
+
+h4 {
+  margin: 1% 0 0 3%;
+  font-family: 'Inconsolata';
+  font-size: 24px;
+}
+
+.main {
+  -webkit-transform: translateY(30%);
+          transform: translateY(30%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .img-container {
+  margin-right: 10%;
+}
+
+.main .img-container img {
+  width: 539px;
+}
+
+.main .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 600px;
+  color: #333333;
+}
+
+.main .text-container h1 {
+  font-family: 'Space Mono';
+  font-size: 64px;
+  margin-bottom: 5%;
+}
+
+.main .text-container p {
+  font-family: 'Space Mono';
+  font-size: 24px;
+  width: 400px;
+  margin-bottom: 5%;
+  color: #4F4F4F;
+}
+
+.main .text-container button {
+  background: #333333;
+  border: none;
+  color: #fff;
+  padding: 20px;
+  font-family: 'Space Mono';
+  font-size: 14px;
+  width: 216px;
+}
+
+@media only screen and (max-width: 1250px) {
+  h4 {
+    margin: 2% 0 0 2%;
+    font-family: 'Inconsolata';
+    font-size: 24px;
+  }
+  .main {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .img-container {
+    margin-right: 10%;
+  }
+  .main .img-container img {
+    width: 287px;
+  }
+  .main .text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 400px;
+  }
+  .main .text-container h1 {
+    font-family: 'Space Mono';
+    font-size: 48px;
+    margin-bottom: 5%;
+  }
+  .main .text-container p {
+    font-family: 'Space Mono';
+    font-size: 18px;
+    width: 328px;
+    margin-bottom: 5%;
+  }
+  .main .text-container button {
+    background: #333333;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Space Mono';
+    font-size: 14px;
+    width: 216px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

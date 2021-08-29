@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+}
+
+h4 {
+	margin: 1% 0 0 3%;
+	font-family: 'Inconsolata';
+	font-size: 24px;
+}
+
+.main {
+	transform: translateY(30%);
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	.img-container {
+		margin-right: 10%;
+		img {
+			width: 539px;
+		}
+	}
+
+	.text-container {
+		display: flex;
+		flex-flow: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		width: 600px;
+        color: #333333;
+		h1 {
+			font-family: 'Space Mono';
+			font-size: 64px;
+			margin-bottom: 5%;
+		}
+
+		p {
+			font-family: 'Space Mono';
+			font-size: 24px;
+			width: 400px;
+			margin-bottom: 5%;
+            color: #4F4F4F;
+		}
+
+		button {
+			background: #333333;
+			border: none;
+			color: #fff;
+			padding: 20px;
+			font-family: 'Space Mono';
+			font-size: 14px;
+			width: 216px;
+		}
+	}
+}
+
+@media only screen and (max-width: 1250px) {
+    h4 {
+        margin: 2% 0 0 2%;
+        font-family: 'Inconsolata';
+        font-size: 24px;
+    }
+	.main {
+        transform: translateY(10%);
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        .img-container {
+            margin-right: 10%;
+            img {
+                width: 287px;
+            }
+        }
+    
+        .text-container {
+            display: flex;
+            flex-flow: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 400px;
+            h1 {
+                font-family: 'Space Mono';
+                font-size: 48px;
+                margin-bottom: 5%;
+            }
+    
+            p {
+                font-family: 'Space Mono';
+                font-size: 18px;
+                width: 328px;
+                margin-bottom: 5%;
+            }
+    
+            button {
+                background: #333333;
+                border: none;
+                color: #fff;
+                padding: 20px;
+                font-family: 'Space Mono';
+                font-size: 14px;
+                width: 216px;
+            }
+        }
+    }
+}
